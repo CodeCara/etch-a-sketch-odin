@@ -1,7 +1,7 @@
-.gridContainer {
+.newGridContainer, .gridContainer {
     display: flex;
     flex-wrap: wrap;
-    
+    background-color: lightgrey;
     
 
     width: 640px;
@@ -10,12 +10,13 @@
 }
 .square {   
 flex: 1 0 6.25%;
+
     
 /*Explicit height was not needed as Flex props. set */
 }
 
-/*.square:hover {
-    background-color: green;
-/*}
+button {margin-bottom: 10px;}
 
+
+.newGridContainer {background-color: red;}
 
