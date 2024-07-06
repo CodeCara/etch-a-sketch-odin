@@ -1,4 +1,4 @@
-.newGridContainer, .gridContainer {
+.gridContainer {
     display: flex;
     flex-wrap: wrap;
     background-color: lightgrey;
@@ -11,12 +11,13 @@
 .square {   
 flex: 1 0 6.25%;
 
-    
-/*Explicit height was not needed as Flex props. set */
+
+
 }
+
+
+
 
 button {margin-bottom: 10px;}
 
-
-.newGridContainer {background-color: red;}
 
